@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+
+        <title> Tetris </title>
+
+        <meta name = "viewport" content= "width=device-width, initial-scale= 1.0">
+
+        <link rel="stylesheet" href ="style.css">
+    
+    </head>
+
+    <body>
+
+        <!-- Header -->
+
+        <header>
+
+            <h1> Tetris Game</h1>
+
+        </header>
+
+        <!-- Content -->
+        
+        <div class= "grid">
+
+            <!-- Tetris board -->
+
+            <div class= "game-board">
+
+                <div id= "clock"> 2:00 </div>
+                
+                <div id= "hold-piece" class= "display"> 
+                </div>
+                <label id= "hold-piece-label" class= "label"> Hold</label>
+
+                <div id= "next-piece" class= "display"> 
+                </div>
+                <label id= "next-piece-label" class= "label"> Next Piece</label>
+
+                <div id= "line-destroyed" class= "display"> 
+                </div>
+                <label id= "line-destroyed-label" class= "label"> Lines Destroyed </label>
+
+                <div id= "tetris-board"></div>
+
+            </div>
+
+            <!-- Description -->
+
+            <div class= "desc-board">
+
+                <nav class= "navbar">
+
+                    <ul>
+                        <li> <a id= "about" href= "#"> About </a> </li>
+                        <li> <a id= "description" href= "#"> Description </a> </li>
+                    </ul>
+
+                </nav>
+
+                <div id= "body">
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        <script src= "app.js"></script>
+
+    </body>
+
+</html>
+    
